@@ -17,8 +17,30 @@ class Caneta:
 
 ###############################
 
-caneta = Caneta('Azul')
-print(caneta.cor)
-
 # Se em algum momento vc precisar modificar o atributo cor, como fazer para 
 # nao interfereir no objeto que a equipe esta usando?
+# print(caneta.get_cor())
+# print(caneta.get_cor())
+# print(caneta.get_cor())
+# print(caneta.get_cor())
+# print(caneta.get_cor())
+# print(caneta.get_cor())
+# print(caneta.get_cor())
+# print(caneta.get_cor())
+
+caneta = Caneta('Azul')
+print(caneta.cor)
+caneta = Caneta('Azul')
+print(caneta.cor)
+caneta = Caneta('Azul')
+print(caneta.cor)
+caneta = Caneta('Azul')
+print(caneta.cor)
+caneta = Caneta('Azul')
+print(caneta.cor)
+caneta = Caneta('Azul')
+print(caneta.cor)
+caneta = Caneta('Azul')
+print(caneta.cor)
+caneta = Caneta('Azul')
+print(caneta.cor)
