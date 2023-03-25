@@ -13,7 +13,6 @@ import json
 from typing import TypedDict
 
 
-# ele define a tipagem para poder fazer uma busca
 class Movie(TypedDict):
     title: str
     original_title: str
@@ -24,24 +23,22 @@ class Movie(TypedDict):
     budget: None | float
 
 
-string_json = '''{
-    "title": "O Senhor dos Anéis: A Sociedade do Anel",
-    "original_title": "The Lord of the Rings: The Fellowship of the Ring",
-    "is_movie": true,
-    "imdb_rating": 8.8,
-    "year": 2001,
-    "characters": ["Frodo", "Sam", "Gandalf", "Legolas", "Boromir"],
-    "budget": null
-    }'''
-
-
+string_json = '''
+{
+  "title": "O Senhor dos Anéis: A Sociedade do Anel",
+  "original_title": "The Lord of the Rings: The Fellowship of the Ring",
+  "is_movie": true,
+  "imdb_rating": 8.8,
+  "year": 2001,
+  "characters": ["Frodo", "Sam", "Gandalf", "Legolas", "Boromir"],
+  "budget": null
+}
+'''
 filme: Movie = json.loads(string_json)
 # pprint(filme, width=40)
 # print(filme['title'])
 # print(filme['characters'][0])
 # print(filme['year'] + 10)
 
-# ensure_ascii - para preservar acentuação referente a linguagem utf
-# indent para identar o json em 2 espacos
 json_string = json.dumps(filme, ensure_ascii=False, indent=2)
 print(json_string)
