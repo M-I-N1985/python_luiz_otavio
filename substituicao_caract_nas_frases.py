@@ -16,7 +16,7 @@ for palavra in frase:
         elif letra == 'í':
             letra = 'i'
             nova_palavra = nova_palavra + letra
-        elif letra in ['ó', 'ô']:
+        elif letra in ['ó', 'ô', 'õ']:
             letra = 'o'
             nova_palavra = nova_palavra + letra
         elif letra == 'ú':
