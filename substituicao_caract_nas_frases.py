@@ -1,7 +1,7 @@
 
 frase = input("Digite a frase: ")
 # frase = "3. Inção às"
-frase = frase.lower().split()
+frase = frase.lower().split()  # type: ignore
 nova_frase = ""
 nova_palavra = ""
 

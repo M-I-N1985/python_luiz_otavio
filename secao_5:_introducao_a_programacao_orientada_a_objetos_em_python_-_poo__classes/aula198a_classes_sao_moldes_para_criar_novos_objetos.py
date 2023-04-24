@@ -1,5 +1,5 @@
 # class - Classes são moldes para criar novo objetos
-# As classes geram novos objetos (instâncias) que 
+# As classes geram novos objetos (instâncias) que
 # podem ster seus proprios atributos e métodos.
 # Os objetos gerados pela classe podem usar seus dados
 # internos para realizar várias ações.
@@ -10,6 +10,7 @@
 
 class Pessoa:
     ...
+
 
 p1 = Pessoa()
 p1.nome = 'Iuri'
